@@ -8,7 +8,6 @@ import { key } from '../../api';
 
 const BASE_URL = 'https://finnhub.io/api/v1/quote?symbol=';
 const KEY_URL = `&token=${key}`;
-console.log(KEY_URL);
 
 const testData = [];
 
@@ -69,7 +68,6 @@ function Stats() {
     });
 
     Promise.all(promises).then(() => {
-      console.log(testData);
       setStocksData(testData);
     });
   }, []);
