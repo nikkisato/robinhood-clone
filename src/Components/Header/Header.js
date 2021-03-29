@@ -4,7 +4,7 @@ import SearchOutlined from '@material-ui/icons/SearchOutlined';
 import Logo from '../../assets/robinhood.svg';
 function Header() {
   return (
-    <div className='header__wrapper'>
+    <div className='header'>
       <div className='header__logo'>
         <img src={Logo} width={25} alt='robinhood logo' />
       </div>
